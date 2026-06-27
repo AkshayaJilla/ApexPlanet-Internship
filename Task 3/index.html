@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Styling and JavaScript</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Advanced Styling and JavaScript</h1>
+</header>
+
+<div class="container">
+
+<!-- Responsive Section -->
+<section class="card">
+<h2>Responsive Design</h2>
+
+<div class="responsive-boxes">
+<div class="box">HTML</div>
+<div class="box">CSS</div>
+<div class="box">JavaScript</div>
+</div>
+
+</section>
+
+<!-- Quiz Section -->
+
+<section class="card">
+
+<h2>JavaScript Quiz</h2>
+
+<div id="quiz">
+
+<h3 id="question"></h3>
+
+<div id="answers"></div>
+<div id="quiz">
+    <h3 id="question"></h3>
+
+    <div id="answers"></div>
+
+    <button id="prevBtn" onclick="previousQuestion()">Previous</button>
+    <button id="nextBtn" onclick="nextQuestion()">Next</button>
+
+    <p id="score"></p>
+</div>
+<button onclick="nextQuestion()">Next</button>
+
+<p id="score"></p>
+
+</div>
+
+</section>
+
+<!-- API Section -->
+
+<section class="card">
+
+<h2>Random Joke</h2>
+
+<p id="joke">Click the button to load a joke.</p>
+
+
+<button id="jokeBtn" onclick="getJoke()">Get Joke</button>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
